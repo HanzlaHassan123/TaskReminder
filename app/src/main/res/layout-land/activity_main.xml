@@ -11,7 +11,7 @@
         android:id="@+id/surahList"
         android:layout_width="match_parent"
 
-        android:layout_height="620dp"
+        android:layout_height="540dp"
         android:layout_marginTop="192dp"
         android:background="#DCCBF3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,8 +21,8 @@
 
     <EditText
         android:id="@+id/ET_surah"
-        android:layout_width="396dp"
-        android:layout_height="56dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:ems="10"
         android:inputType="text"
@@ -58,7 +58,7 @@
         android:id="@+id/updateSurahBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="24dp"
         android:text="Update"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -70,7 +70,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Task Reminder"
+        android:text="Surah Manager"
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="#4F2A90"

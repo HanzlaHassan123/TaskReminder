@@ -31,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
         surahlist=findViewById(R.id.surahList);
         deleteSurahBtn=findViewById(R.id.deleteSurahBtn);
         updateSurahBtn=findViewById(R.id.updateSurahBtn);
-       surahList.add("Furqan");
-       surahList.add("Baqra");
-       surahList.add("Annaas");
-       surahList.add("falak");
+       surahList.add(" I need to do assignment tonight");
+       surahList.add("today is the last day of our MobileAndroid assignement submission");
+       surahList.add("I promised to meet ahmad today");
+       surahList.add("I have to go for a walk");
 
         ArrayAdapter<String> arrayAdapter=new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,surahList);
         surahlist.setAdapter(arrayAdapter);
